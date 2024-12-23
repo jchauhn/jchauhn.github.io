@@ -1,0 +1,74 @@
+---
+title: "Wireshark on Pi"
+date: 2020-09-15T11:30:03+00:00
+# weight: 1
+# aliases: ["/first"]
+tags: ["wireshark","router","","pi"]
+author: "Me"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+description: "Road to running OpenWRT"
+canonicalURL: ""
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "<image path/url>" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+---
+
+## Installing Wireshark
+Being available through the official package repository makes installing Wireshark a breeze. In fact, it is only really one command that we need to run to install the software.
+
+Before installing Wireshark onto the Raspberry Pi, we must first update the package list. At the same time, we will also upgrade any existing packages.
+You can update the package list and upgrade any out-of-date packages using the following command.
+```
+sudo apt update
+sudo apt upgrade
+```
+If prompted to continue, you will need to type in Y and press the ENTER key to confirm the upgrade.
+
+With the package list updated, we only need to run the command below in the terminal to install Wireshark to our Pi.
+```
+sudo apt install wireshark
+```
+During the installation of Wireshark, you will be prompted on whether you want the software to be accessible by non-root users.
+By selecting “”, a user will be able to use “dumpcap” and Wireshark as long as it is a part of the “wireshark” group.
+
+Since that is how we plan to set up Wireshark, use the ARROW keys to select ““, and press the ENTER key.
+
+While you now have Wireshark installed on your Raspberry Pi, there is some additional work we need to do within the terminal.
+Configuring the Raspberry Pi for Wireshark
+Wireshark won’t work as intended out of the box as your default user won’t have access to the required tools. Don’t worry though, all we need to do is add the user to a specific group.
+
+While you can run Wireshark on your Raspberry Pi without doing this, you won’t be able to monitor your network interfaces.
+
+The only thing we need to do now is add your user to the “wireshark” group.
+By adding the user to this group, it should have access to the “dumpcamp” software that Wireshark utilizes.
+
+To add your user to the “wireshark” group, we will use the usermod command as shown below. Please make sure that you replace “pi” with your username.
+```
+sudo usermod -a -G wireshark pi
+```
+Copy
+After making changes to your user’s group, you will need to log off and back on or restart your device entirely.
+If you would like to restart your Raspberry Pi, then you can use the following command.
+```
+sudo reboot
+```
+
