@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jchauhn.github.io:443/blog/tags/first/</loc>
+    <loc>https://jchauhn.github.io:443/blog/tags/chatgpt/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://jchauhn.github.io:443/blog/posts/chatgptfucky/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://jchauhn.github.io:443/blog/tags/css/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://jchauhn.github.io:443/blog/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://jchauhn.github.io:443/blog/posts/firstpost/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://jchauhn.github.io:443/blog/posts/fourthpost/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://jchauhn.github.io:443/blog/tags/netgear/</loc>
@@ -32,6 +32,9 @@
     <loc>https://jchauhn.github.io:443/blog/tags/router/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
+    <loc>https://jchauhn.github.io:443/blog/tags/script/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
     <loc>https://jchauhn.github.io:443/blog/tags/serial/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
@@ -46,8 +49,6 @@
   </url><url>
     <loc>https://jchauhn.github.io:443/blog/posts/thirdpost/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://jchauhn.github.io:443/blog/posts/chatgptfucky/</loc>
   </url><url>
     <loc>https://jchauhn.github.io:443/blog/categories/</loc>
   </url>

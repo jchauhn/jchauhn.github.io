@@ -14,10 +14,17 @@
     <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
     <atom:link href="https://jchauhn.github.io:443/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First</title>
-      <link>https://jchauhn.github.io:443/blog/tags/first/</link>
+      <title>Chatgpt</title>
+      <link>https://jchauhn.github.io:443/blog/tags/chatgpt/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/blog/tags/first/</guid>
+      <guid>https://jchauhn.github.io:443/blog/tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Css</title>
+      <link>https://jchauhn.github.io:443/blog/tags/css/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/blog/tags/css/</guid>
       <description></description>
     </item>
     <item>
@@ -46,6 +53,13 @@
       <link>https://jchauhn.github.io:443/blog/tags/router/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       <guid>https://jchauhn.github.io:443/blog/tags/router/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Script</title>
+      <link>https://jchauhn.github.io:443/blog/tags/script/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/blog/tags/script/</guid>
       <description></description>
     </item>
     <item>

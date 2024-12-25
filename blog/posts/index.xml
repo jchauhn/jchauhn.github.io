@@ -14,18 +14,11 @@
     <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
     <atom:link href="https://jchauhn.github.io:443/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My 1st post</title>
-      <link>https://jchauhn.github.io:443/blog/posts/firstpost/</link>
+      <title>ChatGPT Shenanigans</title>
+      <link>https://jchauhn.github.io:443/blog/posts/chatgptfucky/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/blog/posts/firstpost/</guid>
-      <description>Desc Text.</description>
-    </item>
-    <item>
-      <title>My 1st post</title>
-      <link>https://jchauhn.github.io:443/blog/posts/fourthpost/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/blog/posts/fourthpost/</guid>
-      <description>Desc Text.</description>
+      <guid>https://jchauhn.github.io:443/blog/posts/chatgptfucky/</guid>
+      <description>Road to running OpenWRT</description>
     </item>
     <item>
       <title>Netgear Serial Access</title>
@@ -40,26 +33,6 @@
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       <guid>https://jchauhn.github.io:443/blog/posts/thirdpost/</guid>
       <description>Road to running OpenWRT</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://jchauhn.github.io:443/blog/posts/chatgptfucky/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/blog/posts/chatgptfucky/</guid>
-      <description>&lt;h3 id=&#34;hidden-script-inside-css&#34;&gt;Hidden Script inside CSS&lt;/h3&gt;
-&lt;p&gt;There is script Hidden inside the between the two CSS files.
-These two .css file togerther can detect if the computer is connected to the internet.
-If not they block the viewing of the data inside&lt;/p&gt;
-&lt;p&gt;The main files are:-&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;conversation-small-gncbdz17&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;root-c2ck6e7e&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;It starts with &lt;code&gt;conversation-small-gncbd17&lt;/code&gt; This makes a call to &lt;code&gt;https://cdn.oaistatic.com/assets/manifest-8565d6fb.js&lt;/code&gt;
-&lt;code&gt;https://cdn.oaistatic.com/assets/hwhtsahnjjraw24h.js&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Then it makes a call to &lt;code&gt;root-c2ck6e7e&lt;/code&gt;. this can be happening anywhere between the html page and the two css files.
-The webpage then makes a request to prefetcCSSResource.js which is really its own thing. no sourcefile.
-NoScript blocks scrit-src-elemnt so js doesn&amp;rsquo;t execute in Firefox&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
