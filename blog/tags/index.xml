@@ -28,6 +28,13 @@
       <description></description>
     </item>
     <item>
+      <title>Pi</title>
+      <link>https://jchauhn.github.io:443/blog/tags/pi/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/blog/tags/pi/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>R7000</title>
       <link>https://jchauhn.github.io:443/blog/tags/r7000/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
@@ -53,6 +60,13 @@
       <link>https://jchauhn.github.io:443/blog/tags/uart/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       <guid>https://jchauhn.github.io:443/blog/tags/uart/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wireshark</title>
+      <link>https://jchauhn.github.io:443/blog/tags/wireshark/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/blog/tags/wireshark/</guid>
       <description></description>
     </item>
   </channel>

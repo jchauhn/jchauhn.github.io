@@ -20,5 +20,12 @@
       <guid>https://jchauhn.github.io:443/blog/posts/firstpost/</guid>
       <description>Desc Text.</description>
     </item>
+    <item>
+      <title>My 1st post</title>
+      <link>https://jchauhn.github.io:443/blog/posts/fourthpost/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/blog/posts/fourthpost/</guid>
+      <description>Desc Text.</description>
+    </item>
   </channel>
 </rss>

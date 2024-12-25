@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Router on jchauhn&#39;s writeups</title>
-    <link>https://jchauhn.github.io:443/blog/tags/router/</link>
-    <description>Recent content in Router on jchauhn&#39;s writeups</description>
+    <title>Pi on jchauhn&#39;s writeups</title>
+    <link>https://jchauhn.github.io:443/blog/tags/pi/</link>
+    <description>Recent content in Pi on jchauhn&#39;s writeups</description>
     <image>
       <title>jchauhn&#39;s writeups</title>
       <url>https://jchauhn.github.io:443/assets/good-hacker.png</url>
@@ -12,14 +12,7 @@
     <generator>Hugo -- 0.134.1</generator>
     <language>en</language>
     <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
-    <atom:link href="https://jchauhn.github.io:443/blog/tags/router/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Netgear Serial Access</title>
-      <link>https://jchauhn.github.io:443/blog/posts/secondpost/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/blog/posts/secondpost/</guid>
-      <description>Road to running OpenWRT</description>
-    </item>
+    <atom:link href="https://jchauhn.github.io:443/blog/tags/pi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wireshark on Pi</title>
       <link>https://jchauhn.github.io:443/blog/posts/thirdpost/</link>
