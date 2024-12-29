@@ -21,6 +21,13 @@
       <description>Road to running OpenWRT</description>
     </item>
     <item>
+      <title>Pentesting cisco meraki</title>
+      <link>https://jchauhn.github.io:443/blog/posts/cisco_meraki/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/blog/posts/cisco_meraki/</guid>
+      <description>Trying to open up the router w/o subscription</description>
+    </item>
+    <item>
       <title>Wireshark on Pi</title>
       <link>https://jchauhn.github.io:443/blog/posts/thirdpost/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
