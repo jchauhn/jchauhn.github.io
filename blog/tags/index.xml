@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo -- 0.134.1</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Dec 2024 11:30:03 +0000</lastBuildDate>
     <atom:link href="https://jchauhn.github.io:443/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cisco</title>
+      <link>https://jchauhn.github.io:443/blog/tags/cisco/</link>
+      <pubDate>Sat, 28 Dec 2024 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/blog/tags/cisco/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Meraki</title>
+      <link>https://jchauhn.github.io:443/blog/tags/meraki/</link>
+      <pubDate>Sat, 28 Dec 2024 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/blog/tags/meraki/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Router</title>
+      <link>https://jchauhn.github.io:443/blog/tags/router/</link>
+      <pubDate>Sat, 28 Dec 2024 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/blog/tags/router/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Chatgpt</title>
       <link>https://jchauhn.github.io:443/blog/tags/chatgpt/</link>
@@ -21,24 +42,10 @@
       <description></description>
     </item>
     <item>
-      <title>Cisco</title>
-      <link>https://jchauhn.github.io:443/blog/tags/cisco/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/blog/tags/cisco/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Css</title>
       <link>https://jchauhn.github.io:443/blog/tags/css/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       <guid>https://jchauhn.github.io:443/blog/tags/css/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Meraki</title>
-      <link>https://jchauhn.github.io:443/blog/tags/meraki/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/blog/tags/meraki/</guid>
       <description></description>
     </item>
     <item>
@@ -60,13 +67,6 @@
       <link>https://jchauhn.github.io:443/blog/tags/r7000/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       <guid>https://jchauhn.github.io:443/blog/tags/r7000/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Router</title>
-      <link>https://jchauhn.github.io:443/blog/tags/router/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/blog/tags/router/</guid>
       <description></description>
     </item>
     <item>
