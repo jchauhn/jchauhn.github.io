@@ -21,6 +21,13 @@
       <description>Trying to open up the router w/o subscription</description>
     </item>
     <item>
+      <title>Setting up Raspberry Pi router</title>
+      <link>https://jchauhn.github.io:443/blog/posts/rpirouter/</link>
+      <pubDate>Sat, 28 Dec 2024 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/blog/posts/rpirouter/</guid>
+      <description>Setting up Rpi router for customizable firewall</description>
+    </item>
+    <item>
       <title>ChatGPT Shenanigans</title>
       <link>https://jchauhn.github.io:443/blog/posts/chatgptfucky/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Pi on jchauhn&#39;s writeups</title>
-    <link>https://jchauhn.github.io:443/blog/tags/pi/</link>
-    <description>Recent content in Pi on jchauhn&#39;s writeups</description>
+    <title>Self on jchauhn&#39;s writeups</title>
+    <link>https://jchauhn.github.io:443/blog/tags/self/</link>
+    <description>Recent content in Self on jchauhn&#39;s writeups</description>
     <image>
       <title>jchauhn&#39;s writeups</title>
       <url>https://jchauhn.github.io:443/assets/good-hacker.png</url>
@@ -12,20 +12,13 @@
     <generator>Hugo -- 0.134.1</generator>
     <language>en</language>
     <lastBuildDate>Sat, 28 Dec 2024 11:30:03 +0000</lastBuildDate>
-    <atom:link href="https://jchauhn.github.io:443/blog/tags/pi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jchauhn.github.io:443/blog/tags/self/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting up Raspberry Pi router</title>
       <link>https://jchauhn.github.io:443/blog/posts/rpirouter/</link>
       <pubDate>Sat, 28 Dec 2024 11:30:03 +0000</pubDate>
       <guid>https://jchauhn.github.io:443/blog/posts/rpirouter/</guid>
       <description>Setting up Rpi router for customizable firewall</description>
-    </item>
-    <item>
-      <title>Wireshark on Pi</title>
-      <link>https://jchauhn.github.io:443/blog/posts/thirdpost/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/blog/posts/thirdpost/</guid>
-      <description>Road to running OpenWRT</description>
     </item>
   </channel>
 </rss>
