@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jchauhn.github.io:443/blog/tags/cisco/</loc>
-    <lastmod>2024-12-28T11:30:03+00:00</lastmod>
-  </url><url>
     <loc>https://jchauhn.github.io:443/blog/tags/hosted/</loc>
-    <lastmod>2024-12-28T11:30:03+00:00</lastmod>
+    <lastmod>2024-12-31T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://jchauhn.github.io:443/blog/</loc>
+    <lastmod>2024-12-31T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://jchauhn.github.io:443/blog/tags/pi/</loc>
+    <lastmod>2024-12-31T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://jchauhn.github.io:443/blog/posts/</loc>
+    <lastmod>2024-12-31T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://jchauhn.github.io:443/blog/tags/raspberry/</loc>
+    <lastmod>2024-12-31T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://jchauhn.github.io:443/blog/tags/router/</loc>
+    <lastmod>2024-12-31T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://jchauhn.github.io:443/blog/tags/self/</loc>
+    <lastmod>2024-12-31T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://jchauhn.github.io:443/blog/posts/rpirouter/</loc>
+    <lastmod>2024-12-31T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://jchauhn.github.io:443/blog/tags/</loc>
+    <lastmod>2024-12-31T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://jchauhn.github.io:443/blog/tags/cisco/</loc>
     <lastmod>2024-12-28T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://jchauhn.github.io:443/blog/tags/meraki/</loc>
     <lastmod>2024-12-28T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://jchauhn.github.io:443/blog/posts/cisco_meraki/</loc>
-    <lastmod>2024-12-28T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://jchauhn.github.io:443/blog/tags/pi/</loc>
-    <lastmod>2024-12-28T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://jchauhn.github.io:443/blog/posts/</loc>
-    <lastmod>2024-12-28T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://jchauhn.github.io:443/blog/tags/raspberry/</loc>
-    <lastmod>2024-12-28T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://jchauhn.github.io:443/blog/tags/router/</loc>
-    <lastmod>2024-12-28T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://jchauhn.github.io:443/blog/tags/self/</loc>
-    <lastmod>2024-12-28T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://jchauhn.github.io:443/blog/posts/rpirouter/</loc>
-    <lastmod>2024-12-28T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://jchauhn.github.io:443/blog/tags/</loc>
     <lastmod>2024-12-28T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://jchauhn.github.io:443/blog/tags/chatgpt/</loc>

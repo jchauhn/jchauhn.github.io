@@ -11,8 +11,43 @@
     </image>
     <generator>Hugo -- 0.134.1</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Dec 2024 11:30:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Dec 2024 11:30:03 +0000</lastBuildDate>
     <atom:link href="https://jchauhn.github.io:443/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hosted</title>
+      <link>https://jchauhn.github.io:443/blog/tags/hosted/</link>
+      <pubDate>Tue, 31 Dec 2024 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/blog/tags/hosted/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pi</title>
+      <link>https://jchauhn.github.io:443/blog/tags/pi/</link>
+      <pubDate>Tue, 31 Dec 2024 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/blog/tags/pi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Raspberry</title>
+      <link>https://jchauhn.github.io:443/blog/tags/raspberry/</link>
+      <pubDate>Tue, 31 Dec 2024 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/blog/tags/raspberry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Router</title>
+      <link>https://jchauhn.github.io:443/blog/tags/router/</link>
+      <pubDate>Tue, 31 Dec 2024 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/blog/tags/router/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self</title>
+      <link>https://jchauhn.github.io:443/blog/tags/self/</link>
+      <pubDate>Tue, 31 Dec 2024 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/blog/tags/self/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Cisco</title>
       <link>https://jchauhn.github.io:443/blog/tags/cisco/</link>
@@ -21,45 +56,10 @@
       <description></description>
     </item>
     <item>
-      <title>Hosted</title>
-      <link>https://jchauhn.github.io:443/blog/tags/hosted/</link>
-      <pubDate>Sat, 28 Dec 2024 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/blog/tags/hosted/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Meraki</title>
       <link>https://jchauhn.github.io:443/blog/tags/meraki/</link>
       <pubDate>Sat, 28 Dec 2024 11:30:03 +0000</pubDate>
       <guid>https://jchauhn.github.io:443/blog/tags/meraki/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pi</title>
-      <link>https://jchauhn.github.io:443/blog/tags/pi/</link>
-      <pubDate>Sat, 28 Dec 2024 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/blog/tags/pi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Raspberry</title>
-      <link>https://jchauhn.github.io:443/blog/tags/raspberry/</link>
-      <pubDate>Sat, 28 Dec 2024 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/blog/tags/raspberry/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Router</title>
-      <link>https://jchauhn.github.io:443/blog/tags/router/</link>
-      <pubDate>Sat, 28 Dec 2024 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/blog/tags/router/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Self</title>
-      <link>https://jchauhn.github.io:443/blog/tags/self/</link>
-      <pubDate>Sat, 28 Dec 2024 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/blog/tags/self/</guid>
       <description></description>
     </item>
     <item>
