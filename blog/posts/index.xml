@@ -11,8 +11,36 @@
     </image>
     <generator>Hugo -- 0.134.1</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 31 Dec 2024 11:30:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Sep 2025 11:30:03 +0000</lastBuildDate>
     <atom:link href="https://jchauhn.github.io:443/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tale of 3 (Wifi) antennas</title>
+      <link>https://jchauhn.github.io:443/blog/posts/wifishenanigans/</link>
+      <pubDate>Mon, 29 Sep 2025 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/blog/posts/wifishenanigans/</guid>
+      <description>Breakdown of different kinds of WiFi antennas</description>
+    </item>
+    <item>
+      <title>Paper MacOS Security</title>
+      <link>https://jchauhn.github.io:443/blog/posts/paper/</link>
+      <pubDate>Mon, 09 Jun 2025 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/blog/posts/paper/</guid>
+      <description>Paper</description>
+    </item>
+    <item>
+      <title>Paper USENIX</title>
+      <link>https://jchauhn.github.io:443/blog/posts/paper_backup/</link>
+      <pubDate>Mon, 09 Jun 2025 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/blog/posts/paper_backup/</guid>
+      <description>Paper</description>
+    </item>
+    <item>
+      <title>Requim of TornadoCash</title>
+      <link>https://jchauhn.github.io:443/blog/posts/tornadocash/</link>
+      <pubDate>Mon, 09 Jun 2025 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/blog/posts/tornadocash/</guid>
+      <description>PoC implmentation of Tornado Cash on the Ethereum blockchain</description>
+    </item>
     <item>
       <title>Setting up Raspberry Pi router</title>
       <link>https://jchauhn.github.io:443/blog/posts/rpirouter/</link>
