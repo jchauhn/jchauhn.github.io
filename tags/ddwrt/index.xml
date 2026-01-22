@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ddwrt on jc&#39;s blog</title>
-    <link>https://jchauhn.github.io:443/blog/tags/ddwrt/</link>
+    <link>https://jchauhn.github.io:443/tags/ddwrt/</link>
     <description>Recent content in Ddwrt on jc&#39;s blog</description>
     <image>
       <title>jc&#39;s blog</title>
@@ -12,12 +12,12 @@
     <generator>Hugo -- 0.134.1</generator>
     <language>en</language>
     <lastBuildDate>Sat, 15 Nov 2025 11:30:03 +0000</lastBuildDate>
-    <atom:link href="https://jchauhn.github.io:443/blog/tags/ddwrt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jchauhn.github.io:443/tags/ddwrt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MiTM network via DDWRT</title>
-      <link>https://jchauhn.github.io:443/blog/posts/network-setup-full/</link>
+      <link>https://jchauhn.github.io:443/posts/network-setup-full/</link>
       <pubDate>Sat, 15 Nov 2025 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/blog/posts/network-setup-full/</guid>
+      <guid>https://jchauhn.github.io:443/posts/network-setup-full/</guid>
       <description>Full visiblity and control over network via DD-WRT</description>
     </item>
   </channel>

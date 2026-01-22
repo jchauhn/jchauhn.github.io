@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Asus on jc&#39;s blog</title>
-    <link>https://jchauhn.github.io:443/blog/tags/asus/</link>
+    <link>https://jchauhn.github.io:443/tags/asus/</link>
     <description>Recent content in Asus on jc&#39;s blog</description>
     <image>
       <title>jc&#39;s blog</title>
@@ -12,12 +12,12 @@
     <generator>Hugo -- 0.134.1</generator>
     <language>en</language>
     <lastBuildDate>Mon, 29 Sep 2025 11:30:03 +0000</lastBuildDate>
-    <atom:link href="https://jchauhn.github.io:443/blog/tags/asus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jchauhn.github.io:443/tags/asus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tale of 3 (Wifi) antennas</title>
-      <link>https://jchauhn.github.io:443/blog/posts/wifishenanigans/</link>
+      <link>https://jchauhn.github.io:443/posts/wifishenanigans/</link>
       <pubDate>Mon, 29 Sep 2025 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/blog/posts/wifishenanigans/</guid>
+      <guid>https://jchauhn.github.io:443/posts/wifishenanigans/</guid>
       <description>Breakdown of different kinds of WiFi antennas</description>
     </item>
   </channel>

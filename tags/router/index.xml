@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Router on jc&#39;s blog</title>
-    <link>https://jchauhn.github.io:443/blog/tags/router/</link>
+    <link>https://jchauhn.github.io:443/tags/router/</link>
     <description>Recent content in Router on jc&#39;s blog</description>
     <image>
       <title>jc&#39;s blog</title>
@@ -12,40 +12,40 @@
     <generator>Hugo -- 0.134.1</generator>
     <language>en</language>
     <lastBuildDate>Mon, 29 Sep 2025 11:30:03 +0000</lastBuildDate>
-    <atom:link href="https://jchauhn.github.io:443/blog/tags/router/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jchauhn.github.io:443/tags/router/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tale of 3 (Wifi) antennas</title>
-      <link>https://jchauhn.github.io:443/blog/posts/wifishenanigans/</link>
+      <link>https://jchauhn.github.io:443/posts/wifishenanigans/</link>
       <pubDate>Mon, 29 Sep 2025 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/blog/posts/wifishenanigans/</guid>
+      <guid>https://jchauhn.github.io:443/posts/wifishenanigans/</guid>
       <description>Breakdown of different kinds of WiFi antennas</description>
     </item>
     <item>
       <title>Setting up Raspberry Pi router</title>
-      <link>https://jchauhn.github.io:443/blog/posts/rpirouter/</link>
+      <link>https://jchauhn.github.io:443/posts/rpirouter/</link>
       <pubDate>Tue, 31 Dec 2024 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/blog/posts/rpirouter/</guid>
+      <guid>https://jchauhn.github.io:443/posts/rpirouter/</guid>
       <description>Setting up Rpi router for customizable firewall</description>
     </item>
     <item>
       <title>Pentesting cisco meraki</title>
-      <link>https://jchauhn.github.io:443/blog/posts/cisco_meraki/</link>
+      <link>https://jchauhn.github.io:443/posts/cisco_meraki/</link>
       <pubDate>Sat, 28 Dec 2024 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/blog/posts/cisco_meraki/</guid>
+      <guid>https://jchauhn.github.io:443/posts/cisco_meraki/</guid>
       <description>Trying to open up the router w/o subscription</description>
     </item>
     <item>
       <title>Netgear Serial Access</title>
-      <link>https://jchauhn.github.io:443/blog/posts/secondpost/</link>
+      <link>https://jchauhn.github.io:443/posts/secondpost/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/blog/posts/secondpost/</guid>
+      <guid>https://jchauhn.github.io:443/posts/secondpost/</guid>
       <description>Road to running OpenWRT</description>
     </item>
     <item>
       <title>Wireshark on Pi</title>
-      <link>https://jchauhn.github.io:443/blog/posts/thirdpost/</link>
+      <link>https://jchauhn.github.io:443/posts/thirdpost/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/blog/posts/thirdpost/</guid>
+      <guid>https://jchauhn.github.io:443/posts/thirdpost/</guid>
       <description>Road to running OpenWRT</description>
     </item>
   </channel>
