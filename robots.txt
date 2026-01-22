@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://jchauhn.github.io:443/blog/sitemap.xml

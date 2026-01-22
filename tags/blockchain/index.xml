@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blockchain on jc&#39;s blog</title>
+    <link>https://jchauhn.github.io:443/blog/tags/blockchain/</link>
+    <description>Recent content in Blockchain on jc&#39;s blog</description>
+    <image>
+      <title>jc&#39;s blog</title>
+      <url>https://jchauhn.github.io:443/assets/good-hacker.png</url>
+      <link>https://jchauhn.github.io:443/assets/good-hacker.png</link>
+    </image>
+    <generator>Hugo -- 0.134.1</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 09 Jun 2025 11:30:03 +0000</lastBuildDate>
+    <atom:link href="https://jchauhn.github.io:443/blog/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Requim of TornadoCash</title>
+      <link>https://jchauhn.github.io:443/blog/posts/tornadocash/</link>
+      <pubDate>Mon, 09 Jun 2025 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/blog/posts/tornadocash/</guid>
+      <description>PoC implmentation of Tornado Cash on the Ethereum blockchain</description>
+    </item>
+  </channel>
+</rss>

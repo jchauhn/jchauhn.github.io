@@ -1,0 +1,170 @@
+---
+title: "Defeating the Ottomans: Free Wi-Fi on Turkish Airlines"
+date: 2025-11-18T11:30:03+00:00
+# weight: 1
+# aliases: ["/first"]
+tags: ["turkish","airlines","wifi","SNI","domain fronting"]
+author: "Me"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+description: "Breaking though the wifi restrictions in Turki"
+canonicalURL: ""
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "<image path/url>" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+---
+
+
+This week , I flew international via Turkish Airlines and got a chance to examine their inflight wifi system.
+
+Internet access during a flight is a premium feature typically unavailable to the lowly economy traveler. However, most international airlines carveout an exception for messaging apps such as WhatsApp or Messenger and allow (almost) all passenger to message for free. Turkish was no exception. 
+
+Turkish Airline's internet package was offered in tranches, which allowed unlimited messaging for Miles /& Smiles members which you could signup during the flight.
+
+From a networking perspective this selective access raise an crucial question - how is the airline router identifying filtering blacklisted traffic while allowing WhatsApp and other popular messengers. 
+
+
+## IP Blocking.
+
+A naive filter can be implemented by a dropping all traffic to IP addresses linked to blacklisted servives (difficult) or only allowing traffic to white listed IPs (easier). This approach however fails in the age of revolving IP addresses and proxies. A majority of services today are delivered via CDNs/reverse proxies and thus by design aren't assigned permanent IP addresses. 
+
+Furthermore, modern servers and cloud provider often host multiple different services from the same server and an IP block risks blocking legitimate services alongside censored ones. 
+
+## DNS Angle
+
+Since IPs blocking doesn't work maybe DNS blocking will do it. DNS queries help resolve an domain (such as `google.com` ) to its IP addresses. When a user fetches `google.com`, the computer send a query over the internet   to a DNS server to fetch its  the most updated IP address. Since these queries are sent unencrypted is most cases , the airline router can simply drop the DNS queries for blacklisted domains. 
+
+This too however fails in practice due to DNS caching and DNS-over-HTTPS. Computer often save DNS responses over a certain period of time and thus can resolve previously known domain without DNS queries. Modern browsers like Firefox also got a step further and allow DNS requests to known servers over HTTPS which a router can't sniff. A user can also connect to fixed IP proxy and then tunnel all traffic (including DNS) through this connection Thus, computers can send traffic to known IP addresses and circumvent DNS blocks.
+
+So DNS Blocking: FAIL.
+
+
+## Elegant Fix: Handshake sniffing.
+
+The actual solution, which solves all the previously mentioned problem, and one which is actually implemented by airlines is TLS Handshake sniffing. 
+
+All most all internet traffic today is encrypted using TLS or Transport Layer Security. This approach uses Public Key infrastructure to encrypt all connections sent over untrusted channels (which is all Internet traffic). While an explanation of PKI is outside the scope of this blog post, it suffices to understand that all connections made are encrypted (locked) using a a trusted on-device certificate (locking key) and sent over to the server which uses its private key (unlocking key) to decrypt the connection. This prevent anyone without the unlocking key to decrpyt the network traffic even if they successfully capture it.   
+
+Before this can happen, the client and the server need to agree on a keypairs they will use for communication which is where TLS handshake comes into play. During this handshake, the client communicates to the server the domain who's key will be used for encrypting internet traffic. This is necessary since a server need to know which certificate to provide for each individual connection (allowing a single server to host multiple services with different certificates) Crucially, until, TLS 1.2 this was done in the plaintext allowing a upstream router to sniff the intended destination.
+
+This technique (alongside others) was used to enforce mass censorship by several regimes including China and Iran, and it also used today by most airlines to restrict inflight internet access. 
+
+However there exists a loophole in this technique: domain fronting. 
+
+## SNI Domain Fronting.
+
+Server Name Indication (SNI) Fronting is exceeding simple loophole which exploit the core assumption of SNI in TLS handshakes: The domain used in SNI doesn't necessarily need to match the actual domain being connected. 
+In my case, I presented `wa.me` (an allowed domain owned by Whatsapp) alongside a self-signed cert while making a connection to a VPS proxy.
+
+This seems counterintuitive at first glace; wouldn't the server at the other end reject the connection since it is most definitely not `wa.me`. This is actually true for most servers. Sites like Google and Microsoft will reject such connections by default but a personal server can be configured to accept such connections withoutfuss. 
+
+In my case, I used a simple Caddy server with the [forward proxy](https://github.com/caddyserver/forwardproxy) plugin using the following Caddyfile
+
+```
+# HTTPS forward proxy on 443
+bypass.mydomain.org:443 {
+        tls certs/self-cert.pem certs/self-key.pem
+
+        forward_proxy {
+                basic_auth admin $$2a$14$2N.cz8d4/XwDRfRGRBDfjOoBDSoAoSQBroGkbegcreNlXaUISgas5 # bcrypt hash
+                hide_ip
+                hide_via
+        }
+}
+```
+
+I set this all up before boarding my flight and then came the moment of truth
+
+```
+curl --resolve wa.me:443:<VPS_IP> -x https://admin:pass@wa.me ifconfig.co -v
+* Host wa.me:443 was resolved.
+* IPv6: (none)
+* IPv4: <VPS_IP_ADDR>
+*   Trying <VPS_IP_ADDR>:443...
+* Connected to wa.me (<VPS_IP_ADDR>) port 443
+* (304) (OUT), TLS handshake, Client hello (1):
+*  CAfile: /etc/ssl/cert.pem
+*  CApath: none
+* (304) (IN), TLS handshake, Server hello (2):
+* (304) (IN), TLS handshake, Unknown (8):
+* (304) (IN), TLS handshake, Certificate (11):
+* (304) (IN), TLS handshake, CERT verify (15):
+* (304) (IN), TLS handshake, Finished (20):
+* (304) (OUT), TLS handshake, Finished (20):
+* SSL connection using TLSv1.3 / AEAD-CHACHA20-POLY1305-SHA256 / [blank] / UNDEF
+* Proxy certificate:
+*  subject: CN=wa.me; O=Meta; C=US
+*  start date: Nov 18 01:39:30 2025 GMT
+*  expire date: Nov 18 01:39:30 2026 GMT
+*  common name: wa.me (matched)
+*  issuer: CN=wa.me; O=Meta; C=US
+*  SSL certificate verify ok.
+* Proxy auth using Basic with user 'admin'
+> GET http://ifconfig.ip/ HTTP/1.1
+> Host: ifconfig.ip
+> Proxy-Authorization: Basic <CENSORED>
+> User-Agent: curl/8.7.1
+> Accept: */*
+> Proxy-Connection: Keep-Alive
+>
+* Request completely sent off
+< HTTP/1.1 200 OK
+< Alt-Svc: h3=":443"; ma=2592000
+< Server: Caddy
+< Date: Tue, 18 Nov 2025 12:29:20 GMT
+< Content-Length: 0
+<
+* Connection #0 to host wa.me left intact
+```
+
+The connection was successful!
+
+
+To ensure that my system will resolve my VPS IP as `wa.me` to properly set SNI for all connections, I modified my hosts file 
+
+
+```
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+<VPS_IP_ADDR> wa.me
+```
+
+I also flushed the DNS cache of my machine to ensure that the new IP-host mapping was being used properly.
+
+```
+sudo dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+```
+
+Finally, I modified my system proxy settings to use my VPS server 
+Despite this successful curl connection, I was unable to get the my system to route actual traffic through VPS because of misconfig in my Caddy server.
+
+
+I will testing this further and on my return flight back on Turkish.
+
+
