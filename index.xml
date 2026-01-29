@@ -21,11 +21,18 @@
       <description>Breaking though the wifi restrictions in Turki</description>
     </item>
     <item>
-      <title>MiTM network via DDWRT</title>
-      <link>https://jchauhn.github.io:443/posts/network-setup-full/</link>
+      <title>Intercepting all traffic using DD-WRT</title>
+      <link>https://jchauhn.github.io:443/posts/ddwrt-mitm/</link>
       <pubDate>Sat, 15 Nov 2025 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/posts/network-setup-full/</guid>
-      <description>Full visiblity and control over network via DD-WRT</description>
+      <guid>https://jchauhn.github.io:443/posts/ddwrt-mitm/</guid>
+      <description>Full visiblity and control over network</description>
+    </item>
+    <item>
+      <title>Data exfiltration via DNS</title>
+      <link>https://jchauhn.github.io:443/assignments/dnsexfil/</link>
+      <pubDate>Fri, 10 Oct 2025 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/assignments/dnsexfil/</guid>
+      <description>Exfiltrating data using specially crafted DNS packets</description>
     </item>
     <item>
       <title>Tale of 3 (Wifi) antennas</title>
@@ -33,6 +40,13 @@
       <pubDate>Mon, 29 Sep 2025 11:30:03 +0000</pubDate>
       <guid>https://jchauhn.github.io:443/posts/wifishenanigans/</guid>
       <description>Breakdown of different kinds of WiFi antennas</description>
+    </item>
+    <item>
+      <title>Spoofing ARP requests</title>
+      <link>https://jchauhn.github.io:443/assignments/arpspoof/</link>
+      <pubDate>Tue, 16 Sep 2025 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/assignments/arpspoof/</guid>
+      <description>Testing Address Resolution Protocol posisoning using Docker containers</description>
     </item>
     <item>
       <title>Requim of TornadoCash</title>

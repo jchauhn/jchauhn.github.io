@@ -14,11 +14,11 @@
     <lastBuildDate>Sat, 15 Nov 2025 11:30:03 +0000</lastBuildDate>
     <atom:link href="https://jchauhn.github.io:443/tags/iot/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>MiTM network via DDWRT</title>
-      <link>https://jchauhn.github.io:443/posts/network-setup-full/</link>
+      <title>Intercepting all traffic using DD-WRT</title>
+      <link>https://jchauhn.github.io:443/posts/ddwrt-mitm/</link>
       <pubDate>Sat, 15 Nov 2025 11:30:03 +0000</pubDate>
-      <guid>https://jchauhn.github.io:443/posts/network-setup-full/</guid>
-      <description>Full visiblity and control over network via DD-WRT</description>
+      <guid>https://jchauhn.github.io:443/posts/ddwrt-mitm/</guid>
+      <description>Full visiblity and control over network</description>
     </item>
   </channel>
 </rss>

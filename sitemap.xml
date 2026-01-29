@@ -35,14 +35,29 @@
     <loc>https://jchauhn.github.io:443/tags/ddwrt/</loc>
     <lastmod>2025-11-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://jchauhn.github.io:443/tags/iot/</loc>
+    <loc>https://jchauhn.github.io:443/posts/ddwrt-mitm/</loc>
     <lastmod>2025-11-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://jchauhn.github.io:443/posts/network-setup-full/</loc>
+    <loc>https://jchauhn.github.io:443/tags/iot/</loc>
     <lastmod>2025-11-15T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://jchauhn.github.io:443/tags/network/</loc>
     <lastmod>2025-11-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://jchauhn.github.io:443/assignments/</loc>
+    <lastmod>2025-10-10T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://jchauhn.github.io:443/assignments/dnsexfil/</loc>
+    <lastmod>2025-10-10T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://jchauhn.github.io:443/tags/dns/</loc>
+    <lastmod>2025-10-10T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://jchauhn.github.io:443/tags/docker/</loc>
+    <lastmod>2025-10-10T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://jchauhn.github.io:443/tags/wireshark/</loc>
+    <lastmod>2025-10-10T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://jchauhn.github.io:443/tags/antenna/</loc>
     <lastmod>2025-09-29T11:30:03+00:00</lastmod>
@@ -58,6 +73,15 @@
   </url><url>
     <loc>https://jchauhn.github.io:443/tags/yagi/</loc>
     <lastmod>2025-09-29T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://jchauhn.github.io:443/tags/arp/</loc>
+    <lastmod>2025-09-16T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://jchauhn.github.io:443/tags/poisoning/</loc>
+    <lastmod>2025-09-16T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://jchauhn.github.io:443/assignments/arpspoof/</loc>
+    <lastmod>2025-09-16T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://jchauhn.github.io:443/tags/blockchain/</loc>
     <lastmod>2025-06-09T11:30:03+00:00</lastmod>
@@ -132,9 +156,6 @@
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://jchauhn.github.io:443/tags/uart/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>https://jchauhn.github.io:443/tags/wireshark/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://jchauhn.github.io:443/posts/thirdpost/</loc>

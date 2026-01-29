@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.134.1</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Oct 2025 11:30:03 +0000</lastBuildDate>
     <atom:link href="https://jchauhn.github.io:443/tags/wireshark/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data exfiltration via DNS</title>
+      <link>https://jchauhn.github.io:443/assignments/dnsexfil/</link>
+      <pubDate>Fri, 10 Oct 2025 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/assignments/dnsexfil/</guid>
+      <description>Exfiltrating data using specially crafted DNS packets</description>
+    </item>
     <item>
       <title>Wireshark on Pi</title>
       <link>https://jchauhn.github.io:443/posts/thirdpost/</link>

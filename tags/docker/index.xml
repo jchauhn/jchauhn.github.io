@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Docker on jc&#39;s blog</title>
+    <link>https://jchauhn.github.io:443/tags/docker/</link>
+    <description>Recent content in Docker on jc&#39;s blog</description>
+    <image>
+      <title>jc&#39;s blog</title>
+      <url>https://jchauhn.github.io:443/assets/good-hacker.png</url>
+      <link>https://jchauhn.github.io:443/assets/good-hacker.png</link>
+    </image>
+    <generator>Hugo -- 0.134.1</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 Oct 2025 11:30:03 +0000</lastBuildDate>
+    <atom:link href="https://jchauhn.github.io:443/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data exfiltration via DNS</title>
+      <link>https://jchauhn.github.io:443/assignments/dnsexfil/</link>
+      <pubDate>Fri, 10 Oct 2025 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/assignments/dnsexfil/</guid>
+      <description>Exfiltrating data using specially crafted DNS packets</description>
+    </item>
+    <item>
+      <title>Spoofing ARP requests</title>
+      <link>https://jchauhn.github.io:443/assignments/arpspoof/</link>
+      <pubDate>Tue, 16 Sep 2025 11:30:03 +0000</pubDate>
+      <guid>https://jchauhn.github.io:443/assignments/arpspoof/</guid>
+      <description>Testing Address Resolution Protocol posisoning using Docker containers</description>
+    </item>
+  </channel>
+</rss>
